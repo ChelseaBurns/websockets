@@ -2,8 +2,9 @@
   "name": "websockets",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server/loader.js",
   "scripts": {
+    "start": "node server/loader.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ChelseaBurns/websockets/issues"
   },
-  "homepage": "https://github.com/ChelseaBurns/websockets#readme"
+  "homepage": "https://github.com/ChelseaBurns/websockets#readme",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "express": "^4.13.3"
+  }
 }
